@@ -444,7 +444,7 @@ class BaiduCloud(BaseModel):
     """百度云API_KEY 24位英文数字字符串"""
     baidu_secret_key: str = ""
     """百度云SECRET_KEY 32位的英文数字字符串"""
-    prompt_message: str = "[百度云]请珍惜机器人，当前返回内容不合规"
+    prompt_message: str = "[享学课堂]请珍惜智能助手，当前返回内容不合规"
     """不合规消息自定义返回"""
 
 
