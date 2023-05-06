@@ -15,6 +15,9 @@ services:
     restart: always
     environment:
       LANG: 'C.UTF-8'
+    ports:
+      - 8554:8554/tcp
+      - "8080:8080"
     volumes:
       - ./config.cfg:/app/config.cfg
       - ./data:/app/data
