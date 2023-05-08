@@ -21,3 +21,6 @@ RUN pip install --no-cache-dir -r requirements.txt && pip cache purge
 COPY . /app
 
 CMD ["/bin/bash", "/app/docker/start.sh"]
+
+EXPOSE 80
+EXPOSE 8080
