@@ -16,7 +16,7 @@ services:
     environment:
       LANG: 'C.UTF-8'
     ports:
-      - 8554:8554/tcp
+      - "80:80"
       - "8080:8080"
     volumes:
       - ./config.cfg:/app/config.cfg
